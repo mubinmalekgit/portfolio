@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>MM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css" integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader"><h1>0%</h1></div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top" id="navbg">
+            <div class="container">
+              <a class="navbar-brand text-dark cursor-scale cursor-scale" href="#">MM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-oranged "></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MM</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" id="bgcolor">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 text-light cursor-scale" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 text-light cursor-scale" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2 text-light cursor-scale" href="#skillspart">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 text-light cursor-scale" href="#mywork">My Work</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2 text-light cursor-scale" href="#footer">Contact</a>
+                    </li>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    
+        <!-- htext -->
+        <section id="sec1" cursor-scale data-scroll-speed>
+          <div class="row mt-5 ">
+            <div class="col-md-6 cursor-scale" id="hometext">
+              <h3 id="h3">Hello I am</h3>
+              <h1>Mubin <span id="h1malek">Malek</span></h1>
+              <p>Frontend <span>Developer</span></p>
+              <h4>My Portfolio Website</h4>
+              
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid"  id="himg" src="me.jpg" alt="">
+            </div>
+          </div>
+        </section>
+
+        <!-- about -->
+        <section id="aboutme">
+          <div  class="row mt-5" >
+            <div id="aboutme" class="col-lg-6 d-sm-flex justify-content-center">
+              <h1 class="text-center" >About <span>Me</span></h1>
+            </div>
+            <div id="aboutmebreef" class="col-lg-6 cursor-scale">
+              <h2>I am a Website <span>Developer</span></h2>
+              <p>Location: <span>Gujarat, India</span></p>
+              <p>Education: <span>MCA - Master of Computer Application</span></p>
+              <p>Specialty: <span>Website Development</span></p>
+              <p>Experience: <span>Pursuing internship</span></p>
+              <p>E-mail: <span>malekmubin047@...</span></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- section 3 start -->
+<section id="skillspart">
+  <div id="scrollskill" class="row mt-5">
+    <div id="skillsection" class="col-md-6">
+      <h1 id="h1skills" class="text-center" cursor-scale data-scroll-speed >Skills</h1>
+      <div class="animated-image">
+        <img id="animatedimg" src="animation2.gif" alt="Animated Image">
+      </div>
+    </div>
+    <div id="skillsbreef" class="col-md-6 cursor-scale">
+      <h2>HTML</h2>
+      <div class="line1"></div>
+      <h2>CSS</h2>
+      <div class="line2"></div>
+      <h2>BOOTSTRAP</h2>
+      <div class="line3"></div>
+      <h2>JAVASCRIPT</h2>
+      <div class="line4"></div>
+    </div>
+  </div>
+</section>
+
+
+
+        <!-- section 4 start -->
+        <section4 id="mywork">
+          <div id="cardssection" class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="px44.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title cursor-scale">Twitter Clone</h5>
+                  <p class="card-text">With Laravel framework I built the Twitter clone where you can tweet your thoughts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="resize.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title cursor-scale">Food Delivery</h5>
+                  <p class="card-text">With Django framework I built Food Delivery project, mainly my work is Frontend.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="resize1.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title cursor-scale">Rexter Tech website UI clone</h5>
+                  <p class="card-text">Rexter-tech is an IT co. where I did my internship, I built their website's UI clone.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section4>
+  
+          <!-- section 5 start -->
+          <!-- <section>
+            <div class="row mt-5">
+              <div class="col">
+                <div class="contact">Contact Me</div>
+                <div class="line5"></div>
+                <div class="col text-center" id="iconsid">
+                  <a href="https://www.linkedin.com/in/mubin-malek-8b05a1229/" class="text-dark">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#" class="text-dark fa fa-twitter"></a>
+                  <a href="https://www.facebook.com/mubin.malek.3363" class="text-dark">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="https://www.instagram.com/mubin_content/?igshid=YmMyMTA2M2Y%3D" class="text-dark">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div> -->
+        
+          <footer id="footer" class="bg-dark text-light py-4">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <h5 id="contactinfo ">Contact Information</h5>
+                        <p>Email: <span>malekmubin047@..</span></p>
+                        <p>Phone: <span id="number"> 99258 72949</span></p>
+                    </div>
+                    <div class="col-md-6 ">
+                        <h5 id="followme">Follow Me</h5>
+                        <div class="social-icons cursor-scale">
+                          <a href="https://www.linkedin.com/in/mubin-malek-8b05a1229/" class="text-light me-2"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/im_mubinmalek" class="text-light me-2"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/mubin_content/?igshid=YmMyMTA2M2Y%3D" class="text-light me-2"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/mubin.malek.3363" class="text-light me-2"><i class="fa fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <p class="text-center cursor-scale">&copy; 2024 All Rights Reserved by <span id="mmfooter">Mubin Malek</span> </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      
+       
+     
+        <div class="following"></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="gsap.registerPlugin(ScrollTrigger) "></script>
+        <script src=" gsap.registerPlugin(TextPlugin)"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
+  
